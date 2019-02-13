@@ -11,7 +11,7 @@ lib.ssMetadata = [
 		{name:"LOLI_atlas_6", frames: [[0,0,1200,848],[0,850,954,981],[1202,0,728,1280]]},
 		{name:"LOLI_atlas_7", frames: [[1272,918,640,640],[711,0,1325,504],[0,967,658,712],[660,967,610,762],[711,506,1302,410],[0,0,709,965]]},
 		{name:"LOLI_atlas_8", frames: [[1201,1488,505,460],[0,0,640,628],[642,0,550,640],[1201,1061,640,425],[1366,419,482,506],[0,1114,607,459],[642,1061,557,516],[1194,0,722,417],[0,1575,640,426],[0,630,640,482],[642,642,722,417]]},
-		{name:"LOLI_atlas_9", frames: [[0,1203,130,148],[1720,1287,130,148],[1588,1287,130,148],[132,1203,130,148],[1126,1204,130,148],[482,0,636,311],[708,600,328,507],[1038,600,328,507],[348,1112,241,258],[1126,1109,231,93],[1417,215,295,255],[1852,1287,157,119],[0,485,1912,113],[1126,1354,130,130],[0,600,346,601],[348,600,358,510],[708,1109,170,475],[770,408,215,71],[1714,215,57,57],[482,313,286,108],[0,1353,234,77],[482,423,255,31],[770,313,231,93],[1368,600,327,361],[1697,600,305,291],[1120,0,673,213],[880,1109,244,299],[1795,0,218,392],[1697,893,218,392],[1368,963,218,392],[1120,215,295,267],[1003,313,111,109],[1914,394,130,148],[0,0,480,483]]}
+		{name:"LOLI_atlas_9", frames: [[132,1203,130,148],[0,1203,130,148],[1588,1287,130,148],[1126,1204,130,148],[1720,1287,130,148],[482,0,636,311],[1038,600,328,507],[708,600,328,507],[348,1112,241,258],[1126,1109,231,93],[1417,215,295,255],[1852,1287,157,119],[0,485,1912,113],[1126,1354,130,130],[0,600,346,601],[348,600,358,510],[708,1109,170,475],[770,408,215,71],[1714,215,57,57],[482,313,286,108],[0,1353,234,77],[482,423,255,31],[770,313,231,93],[1368,600,327,361],[1697,600,305,291],[1120,0,673,213],[880,1109,244,299],[1795,0,218,392],[1368,963,218,392],[1697,893,218,392],[1120,215,295,267],[1003,313,111,109],[1914,394,130,148],[0,0,480,483]]}
 ];
 
 
@@ -2780,8 +2780,8 @@ p.nominalBounds = new cjs.Rectangle(-513.3,-590,1036,1770);
 		
 		//פונקציית סאונד
 		function init() {
-			createjs.Sound.registerSound("/sounds/correctmp3wav.mp3", "YES");
-			createjs.Sound.registerSound("/sounds/worngmp3.mp3", "NO");
+			createjs.Sound.registerSound("https://talshenkar.github.io/gameLOLI/game/sounds/correctmp3wav.mp3", "YES");
+			createjs.Sound.registerSound("https://talshenkar.github.io/gameLOLI/game/sounds/worngmp3.mp3", "NO");
 		}
 		
 		
@@ -3711,23 +3711,23 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedTexturedBitmap_3.png?1550091407245", id:"CachedTexturedBitmap_3"},
-		{src:"images/head.png?1550091407245", id:"head"},
-		{src:"images/LOLIbackground01.jpg?1550091407245", id:"LOLIbackground01"},
-		{src:"images/lolibody.png?1550091407245", id:"lolibody"},
-		{src:"images/LOLI_atlas_.png?1550091407079", id:"LOLI_atlas_"},
-		{src:"images/LOLI_atlas_2.png?1550091407080", id:"LOLI_atlas_2"},
-		{src:"images/LOLI_atlas_3.png?1550091407080", id:"LOLI_atlas_3"},
-		{src:"images/LOLI_atlas_4.png?1550091407080", id:"LOLI_atlas_4"},
-		{src:"images/LOLI_atlas_5.png?1550091407080", id:"LOLI_atlas_5"},
-		{src:"images/LOLI_atlas_6.png?1550091407080", id:"LOLI_atlas_6"},
-		{src:"images/LOLI_atlas_7.png?1550091407080", id:"LOLI_atlas_7"},
-		{src:"images/LOLI_atlas_8.png?1550091407080", id:"LOLI_atlas_8"},
-		{src:"images/LOLI_atlas_9.png?1550091407081", id:"LOLI_atlas_9"},
-		{src:"sounds/worngmp3.mp3?1550091407245", id:"worngmp3"},
-		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1550091407245", id:"lib/jquery-2.2.4.min.js"},
-		{src:"components/sdk/anwidget.js?1550091407245", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1550091407245", id:"an.ComboBox"}
+		{src:"images/CachedTexturedBitmap_3.png?1550092553911", id:"CachedTexturedBitmap_3"},
+		{src:"images/head.png?1550092553911", id:"head"},
+		{src:"images/LOLIbackground01.jpg?1550092553911", id:"LOLIbackground01"},
+		{src:"images/lolibody.png?1550092553911", id:"lolibody"},
+		{src:"images/LOLI_atlas_.png?1550092553524", id:"LOLI_atlas_"},
+		{src:"images/LOLI_atlas_2.png?1550092553525", id:"LOLI_atlas_2"},
+		{src:"images/LOLI_atlas_3.png?1550092553525", id:"LOLI_atlas_3"},
+		{src:"images/LOLI_atlas_4.png?1550092553525", id:"LOLI_atlas_4"},
+		{src:"images/LOLI_atlas_5.png?1550092553525", id:"LOLI_atlas_5"},
+		{src:"images/LOLI_atlas_6.png?1550092553525", id:"LOLI_atlas_6"},
+		{src:"images/LOLI_atlas_7.png?1550092553526", id:"LOLI_atlas_7"},
+		{src:"images/LOLI_atlas_8.png?1550092553526", id:"LOLI_atlas_8"},
+		{src:"images/LOLI_atlas_9.png?1550092553528", id:"LOLI_atlas_9"},
+		{src:"sounds/worngmp3.mp3?1550092553911", id:"worngmp3"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1550092553911", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js?1550092553911", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1550092553911", id:"an.ComboBox"}
 	],
 	preloads: []
 };
